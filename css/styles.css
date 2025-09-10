@@ -22,6 +22,21 @@ body{
 }
 /*Fim da Estilização do Body*/
 
+/*Início da Estilização do Container*/
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    align-items: center;
+    width: 850px;
+    gap: 70px;
+    background: #bbc3f2;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+/*Fim da Estilização do Container*/
+
 
 /*Início da Estilização do Modal*/
 .game-modal{
