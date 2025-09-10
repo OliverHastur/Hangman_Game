@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/word-list.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Início Modal -->
+    <div class="game-modal">
+      <div class="content">
+        <img src="#" alt="gif" />
+        <!-- Imagem da condição do game -->
+        <h4>Fim do jogo!</h4>
+        <!-- Mensagem do game -->
+        <p>A palavra correta era: <b>palavra</b></p>
+        <!-- Mostra a palavra correta -->
+        <button class="play-again">Jogar Novamente</button>
+        <!-- Botão de reiniciar -->
+        <!-- Imagem da condição do game -->
+      </div>
+    </div>
+    <!-- Fim Modal -->
+
+    <!-- Início Container -->
+    <div class="container">
+      <!-- Início Forca -->
+      <div class="hangman-box">
+        <img src="images/hangman-0.svg" draggable="false" alt="hangman-img" />
+        <!-- Imagem da forca -->
+      </div>
+      <!-- Fim Forca -->
+
+      <!-- Início GameBox -->
+      <div class="game-box">
+        <ul class="word-display"></ul>
+        <!-- Lista para exibição da palavra -->
+        <h4 class="hint-text">Dica: <b></b></h4>
+        <!-- Dica da palavra -->
+        <h4 class="guesses-text">Tentativas: <b></b></h4>
+        <!-- Tentativas restantes -->
+        <div class="keyboard"></div>
+        <!-- Teclado virtual -->
+      </div>
+      <!-- Fim GameBox -->
+    </div>
+    <!-- Fim Container -->
+  </body>
+</html>
